@@ -1,12 +1,20 @@
 # blockchain-prototype
 Allows you to create transactions to a local blockchain and retrieve its information given its hash using truffle + ganache integrated to spring boot. 
 
+## Before All
+
+You need to install the truffle package. 
+```
+npm install -g truffle
+```
+For more information visit [truffle](https://archive.trufflesuite.com/docs/truffle/how-to/install/#install-nodejs) page.
+
 ## Steps 
 
 1. Open the truffle project (supblock folder)
 2. Run ganache to initialize the blockchain
-     ```
-     ganache
+   ```
+   ganache
 4. In another terminal migrate the contract to the blockchain. If it works well you'll see the first transaction in ganache terminal.
    ```
    truffle migrate --network development
