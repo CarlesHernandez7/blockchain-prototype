@@ -25,8 +25,8 @@ import java.util.Collections;
 public class BlockchainService {
 
     private final Web3j web3j;
-    String contractAddress = "0xB64bF6916C39A9b17FDDCB451887Bab548D56d01";
-    String ownerAddress = "0x8f26d830fBA012480773824241B5eA04B1A763d7";
+    String contractAddress = "0x99ADF774a1CF5d590981C118E8999e8cd0F6B87E";
+    String ownerAddress = "0xA49c5f98Dbc55780Bb27CB1DC17ED0E54D3e53DB";
     TransactionManager txManager;
 
     @Autowired
